@@ -1,0 +1,96 @@
+body {
+	min-height: 3000px;
+}
+
+.jumbotron {
+	padding-top: 6rem;
+	background-color: #e2edff;
+}
+
+.section {
+	padding-top: 5rem;
+}
+
+/* Class Social Media */
+.social-media {
+	padding-top: 40px;
+	background-color: #e2edff;
+}
+
+.social-media h2 {
+	padding-bottom: 20px;
+}
+.social-media button {
+	border: none;
+	border-radius: 20px;
+}
+.social-media a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Youtube*/
+.youtube button {
+	width: 500px;
+	margin-bottom: 20px;
+	padding: 20px 0;
+	background-color: #c4302b;
+	font-weight: bold;
+	border: solid white;
+	transition: 0.2s;
+}
+
+.youtube button:hover {
+	transform: scale(1.1);
+}
+/* Akhir Youtube */
+
+/* Instagram */
+.instagram button {
+	width: 500px;
+	margin-bottom: 20px;
+	padding: 20px 0;
+	background: linear-gradient(to bottom left, #515bd4, #dd2a7b, #feda77);
+	font-weight: bold;
+	border: solid white;
+	transition: 0.2s;
+}
+
+.instagram button:hover {
+	transform: scale(1.1);
+}
+/* Akhir Instagram */
+
+/* Whatsapp */
+.whatsapp button {
+	width: 500px;
+	margin-bottom: 20px;
+	padding: 20px 0;
+	background: linear-gradient(to bottom left, #128c7e, #25d366, #dcf8c6);
+	font-weight: bold;
+	border: solid white;
+	transition: 0.2s;
+}
+
+.whatsapp button:hover {
+	transform: scale(1.1);
+}
+/* Akhir Whatsapp */
+
+/* Akhir Class Social Media */
+
+/* Ukuran Mobile */
+@media screen and (max-width: 576px) {
+	.social-media {
+		display: block;
+	}
+	.youtube button {
+		width: 300px;
+	}
+	.instagram button {
+		width: 300px;
+	}
+	.whatsapp button {
+		width: 300px;
+	}
+}
